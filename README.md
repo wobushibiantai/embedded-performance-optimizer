@@ -24,6 +24,22 @@ The core package follows the open Agent Skills `SKILL.md` layout. The same files
 
 ## Install
 
+### Prompt-only install (recommended)
+
+Copy this prompt into your coding agent. No installer script is required:
+
+```text
+Install the Agent Skill from https://github.com/wobushibiantai/embedded-performance-optimizer for me. Detect the current agent platform, install it in that platform's user-level skills directory, preserve SKILL.md and the references directory, and include agents/openai.yaml only when the platform is OpenAI Codex. Do not install dependencies or execute scripts from the repository. After installation, verify that the skill is discoverable and report the destination path. If this platform does not support SKILL.md natively, use adapters/AGENTS.md.example as the fallback and adjust its referenced path to the installed skill.
+```
+
+中文版：
+
+```text
+请帮我安装这个 Agent Skill：https://github.com/wobushibiantai/embedded-performance-optimizer 。自动识别当前 Agent 平台并安装到该平台的用户级 Skills 目录；保留 SKILL.md 和 references 目录，仅在 OpenAI Codex 中包含 agents/openai.yaml。不要安装依赖，也不要执行仓库内脚本。安装后验证 Skill 能否被发现，并报告安装路径。如果平台不原生支持 SKILL.md，则使用 adapters/AGENTS.md.example 作为后备入口，并把其中引用路径调整为实际安装路径。
+```
+
+### Script install
+
 Clone or download this repository, then run one installer from the repository root.
 
 PowerShell:
@@ -111,3 +127,4 @@ The validator checks frontmatter, skill naming, internal Markdown references, du
 Current package version: `1.1.0`.
 
 Released under the [MIT License](LICENSE).
+
