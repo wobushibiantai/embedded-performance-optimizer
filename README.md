@@ -1,5 +1,13 @@
 # Embedded Performance Optimizer
 
+<p align="center">
+  <a href="https://tenor.com/view/walking-chip-ne555-walking-chip-integrated-circuit-gif-27619458">
+    <img src="assets/walking-ne555.png" width="420" alt="A walking NE555 timer chip on a breadboard">
+  </a>
+</p>
+
+<p align="center"><sub>Walking NE555 — click the image to view the original animation on Tenor.</sub></p>
+
 A portable Agent Skill for auditing and refactoring embedded C, C++, and Rust code. It covers CPU time, latency, WCET, RAM, flash, stack, DMA, cache coherency, interrupts, RTOS scheduling, I/O throughput, and energy.
 
 The skill contains 37 conditional audit rules. Findings use stable IDs and include evidence, impact, a safe fix, and target-side verification. Rules deliberately avoid folklore such as always replacing division with shifts or always using DMA.
@@ -127,4 +135,3 @@ The validator checks frontmatter, skill naming, internal Markdown references, du
 Current package version: `1.1.0`.
 
 Released under the [MIT License](LICENSE).
-
