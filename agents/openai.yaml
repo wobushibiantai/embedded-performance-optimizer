@@ -1,0 +1,4 @@
+interface:
+  display_name: "嵌入式性能优化"
+  short_description: "系统化测量、诊断并优化嵌入式软件性能、实时性与资源占用"
+  default_prompt: "使用 $embedded-performance-optimizer 分析这个嵌入式项目的性能瓶颈并给出可验证的优化方案。"

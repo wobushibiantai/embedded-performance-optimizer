@@ -1,0 +1,5 @@
+# Embedded performance optimization
+
+When writing, reviewing, or refactoring embedded C, C++, or Rust for performance, memory, real-time behavior, storage, I/O, or power, read and follow `.agents/skills/embedded-performance-optimizer/SKILL.md` and only the references it routes to.
+
+Treat rule findings as conditional on the actual target and workload. Cite stable rule IDs, distinguish evidence from hypotheses, preserve correctness, and include a target-side verification plan.
